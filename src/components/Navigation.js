@@ -7,6 +7,9 @@ const Navigation = () => {
       <NavLink exact to="/" activeClassName="nav-active">
         Acceuil
       </NavLink>
+      <NavLink exact to="/news" activeClassName="nav-active">
+        Actualité
+      </NavLink>
       <NavLink exact to="/a-propos" activeClassName="nav-active">
         A propos
       </NavLink>
